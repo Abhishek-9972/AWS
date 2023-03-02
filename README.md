@@ -22,3 +22,13 @@ EC2 User data script runs with root user
 
 t2.micro is part of AWS free tier
 
+AWS assigns new public address once u terminate and start instance again, but private ip address will remain same.
+
+## EC2 Instance Types
+
+m5.2xlarge
+
+m : instance class
+5 : generation (AWS improves them over time)
+2xlarge : size within the instance class
+
