@@ -1,12 +1,16 @@
 # AWS
 
-# EC2
+# EC2 - ELASTIC CLOUD COMPUTE
 
 EC2 -> Elastic Compute Cloud -> Infrastructure as a service
 
 Operating System (OS) : Linux, Windows or MacOS
 Firewall Rules : Security Group
-Bootstrap Script (Configure at first Launch) : EC2 User Data -> This script will run only once at instance first start
+Bootstrap Script (Configure at first Launch) :  - 
+
+```diff 
+- EC2 User Data -> This script will run only once at instance first start)
+```
 
 EC2 user data is used to automate boot tasks such as :
 1) Installing updates
