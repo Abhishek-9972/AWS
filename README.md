@@ -1,6 +1,6 @@
 # AWS
 
-# EC2 - ELASTIC CLOUD COMPUTE
+# EC2 - ELASTIC COMPUTE CLOUD
 
 EC2 -> Elastic Compute Cloud -> Infrastructure as a service
 
