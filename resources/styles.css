@@ -1,0 +1,110 @@
+
+/* Highlighted Room Card */
+.room-card.highlight {
+    border: 3px solid #FF5722;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 87, 34, 0.5);
+}
+
+.search-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-container input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.search-container button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.room-card img {
+    width: 100%;
+    height: 200px; /* Set a consistent height */
+    object-fit: cover; /* Ensures the image scales proportionally */
+    border-bottom: 2px solid #f0f0f0; /* Optional: Add a separator line */
+    border-radius: 8px 8px 0 0; /* Matches the card's rounded corners */
+}
+
+/* Room Container: Horizontal Layout */
+.room-container {
+    display: flex; /* Enables horizontal alignment */
+    flex-wrap: wrap; /* Allows wrapping to the next row on smaller screens */
+    justify-content: space-evenly; /* Evenly spaces the cards */
+    gap: 1rem; /* Adds spacing between the cards */
+    padding: 1rem;
+}
+
+/* Room Card */
+.room-card {
+    width: 200px; /* Set a fixed width for each card */
+    flex: 1 1 auto; /* Allows cards to adjust size if needed */
+    max-width: 250px; /* Prevents the cards from growing too large */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5dc; /* Beige color */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Add Item Form */
+.add-item-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.add-item-form input, .add-item-form select, .add-item-form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.add-item-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-item-form button:hover {
+    background-color: #45a049;
+}
+
+/* Room Items Display */
+.room-items {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
